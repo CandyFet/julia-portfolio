@@ -7,6 +7,7 @@ gem 'rails', '~> 6.1.2'
 gem "pg", "~> 1.0"
 gem "puma", "~> 5.0"
 gem "webpacker"
+gem 'decent_exposure', '~> 3.0'
 
 gem "cable_ready"
 

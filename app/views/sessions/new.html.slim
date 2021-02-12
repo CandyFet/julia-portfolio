@@ -1,0 +1,9 @@
+div
+  h2 Авторизация
+  = form_tag login_path, method: :post do
+    = text_field_tag :username, params[:username], autocomplete: 'off', placeholder: 'Введите имя пользователя'
+    = password_field_tag :password
+    = button_tag 'Войти', type: :submit
+    
+  
+  
