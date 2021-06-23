@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #5C5C5C;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  html {
+    height: 100%;
+  }
+}
